@@ -1,0 +1,23 @@
+name: "✅ ToDo"
+description: Create a new ticket for a TODO.
+title: "✅ [TODO] - <title>"
+labels: [
+  "todo"
+]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: "Abstract"
+      description: Please enter an explicit abstract of your todo.
+      placeholder: Short and explicit abstract of your todo...
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: "Description"
+      description: Please enter an explicit abstract of your todo.
+      placeholder: Please enter a description of your todo...
+    validations:
+      required: true
